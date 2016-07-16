@@ -1,0 +1,85 @@
+#wrapper {
+	font-size: 12px;
+	margin: 0 auto;
+	width: 960px;
+	background-color: #fff;
+}
+
+h1 {
+	font-size: 15px;
+	color: #333;
+}
+
+span {
+	float: left;
+	line-height: 26px;
+	color: #666;
+}
+
+.vanue-list ul {
+	margin-top: 5px;
+	border-bottom: 1px solid #ccc;
+	
+}
+
+.vanue-list ul li {
+	float: left;
+	margin-left: 30px;
+}
+
+.vanue-list ul:after {
+	content: '';
+	display: block;
+	clear: both;
+}
+
+.vanue-list ul li a {
+	text-decoration: none;
+	line-height: 26px;
+	color: #005aa0;
+}
+
+.vanue-list ul li a:hover {
+	color: #e4393c;
+
+}
+
+.hidden-vanue-list {
+	display: none;
+}
+
+.slide {
+	border-top: 1px solid #ddd;
+	margin-top: -1px;
+	text-align: center;
+}
+
+.slide:hover {
+	border-color: #e4393c;
+}
+
+.btn-slide {
+	background-color: #fff;
+	width: 120px;
+	height: 20px;
+	margin-top: -2px;
+	text-align: center;
+	display: inline-block;
+	color: #333;
+	font-size: 14px;
+	text-decoration: none;
+	padding-top: 4px;
+	border-width: 1px;
+	border-style: solid;
+	border-color: #fff #ddd #ddd;
+}
+
+.slide:hover 
+.btn-slide {
+	color: #e4393c;
+	border-color: #fff #e4393c #e4393c;
+}
+
+
+
+
